@@ -1,13 +1,11 @@
 /*
 1. Declare a variable named `student` and create the following properties (key-value pairs) to the object:
-   
     - add a key named `name` and set it to a string value of your choice
     - add a key named `age` and set it to a number value of your choice
     - add a key named `favFood` and set it to a string value of your choice
     - add a key named `favMovie` and set it to an array with two string elements in it
     - add a key named `favHobby` which will be a method that return a string of your choice; 
  */ 
-
 
  /*
  
