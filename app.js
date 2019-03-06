@@ -6,6 +6,13 @@
     - add a key named `favMovie` and set it to an array with two string elements in it
     - add a key named `favHobby` which will be a method that return a string of your choice; 
  */ 
+var student ={
+              name:"Thomas",
+              age:15,
+              favFood:"Cheese Pizza", 
+              favMovie:["The Notebook", "Toy Story 2"], 
+              favHobby:"basketball" 
+             };
 
  /*
  
@@ -13,10 +20,13 @@
  
  "'name' is 'age' years old and likes to 'favHobby'."
  */
+console.log(student.name + " is " + student.age + " years old and likes to play " + student.favHobby+ ".");
 
   /*
     3.  Declare a variable named `house` and assign it to an EMPTY object.
   */
+ var house = {
+             };
  
   /*
     4.  Add the following properties to this object. Each property declaration expression will be on its own line and
@@ -26,12 +36,20 @@
               - add a property named `size` and set it to a string of your choice including the unit sq feet.
               - add a property named `buy` and set it to a method that will return a string "Hell Yeah!"
 */
-  
+  house.stories = 11;
+  house.color= "red and white";
+  house.size="750 sq. ft.";
+  house.buy=function(){
+    return "hell yeah";
+  };
 /*
     5.  Complete the following:
             - Console.log the object.
             - Invoke the method set for the property 'buy'.
 */
+console.log(house);
+console.log(house.buy);
+
 
   /* 
     6. Declare a variable named `birthdayGift` and set its value to be an EMPTY object.
