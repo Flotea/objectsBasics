@@ -58,10 +58,18 @@ console.log(house.buy);
               - add a property named `size` and set it to a number value between `0` and `20`.
               - add a property named `contents` and set it to be an empty array.
   */
-  
+  var birthdayGift ={};
+  birthdayGift.bagOrBox = "boxed";
+  birthdayGift.size = 20;
+  birthdayGift.contents = [];
   /*
      7. Add 3 elements to your birthdayGift contents property
  */
+birthdayGift.contents = [ 
+                          "doll",
+                          "movie", 
+                          "new shoes"
+                        ];
  
  /*
      8. Declare a variable named `bestMusicAlbum` and create the following properties (key-value pairs) to the object:
@@ -71,8 +79,20 @@ console.log(house.buy);
               - add a key named `user` and set it to be `null`.
               - add a key named `songs` and set it to be an empty array.
   */
+ var bestMusicAlbum ={ 
+                      artist:"Queen", 
+                      year:1975, 
+                      albumCover:"A Night At The Opera", 
+                      user:null, 
+                      songs:[] 
+                    };
   
      /* 9. Add 3 elements to your birthdayGift contents property
      */
+  bestMusicAlbum.songs=[
+                         "Bohemian Rhapsody",
+                         "Love of My Life", 
+                         "I'm In Love With My Car"
+                       ];
   //building & defining key pairs inside of the object, use a colon (:), inside of the { }
   //assigning & modifying require equal signs (=)
