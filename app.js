@@ -87,7 +87,7 @@ birthdayGift.contents = [
                       songs:[] 
                     };
   
-     /* 9. Add 3 elements to your birthdayGift contents property
+     /* 9. Add 3 elements to your songs contents property
      */
   bestMusicAlbum.songs=[
                          "Bohemian Rhapsody",
